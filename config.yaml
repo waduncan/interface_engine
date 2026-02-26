@@ -1,0 +1,12 @@
+listen_host: 0.0.0.0
+listen_port: 2575
+
+forward_host: 127.0.0.1
+forward_port: 3575
+forward_use_mllp: true
+
+paths:
+  inbound_hl7_dir: data/inbound_hl7
+  original_pdf_dir: data/original_pdf
+  compressed_pdf_dir: data/compressed_pdf
+  outbound_hl7_dir: data/outbound_hl7
